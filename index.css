@@ -1,0 +1,10 @@
+/* add antique white background colour to the navigation bar */
+.topnav{
+    background-color: antiquewhite;
+    overflow: hidden;
+}
+/*style the links inside the navigation bar */
+.top nav{
+    float: left;
+    color: white;
+}
