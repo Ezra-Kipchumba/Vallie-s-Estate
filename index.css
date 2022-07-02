@@ -1,14 +1,25 @@
-/* add antique white background colour to the navigation bar */
-.topnav{
-    background-color: antiquewhite;
-    overflow: hidden;
-    float: right;
+h1{
+    font-family: 'Courier New';
+    color: blue;
+    font-size: 25px;
+    text-align: left;
 }
-/*style the links inside the navigation bar */
-.top nav{
-    float: right;
-    color: white;
-    text-align: center;
-    padding: 40px 30px;
-    font-size: larger;
+ul{
+    list-style: block;
+}
+.topnav{
+    text-align: right;
+    font-size: x-large;
+}
+image{
+    max-width: 70px;
+}
+button{
+    color: blue;
+    box-sizing: 70px;
+    max-width: 20%;
+    border-color: darkblue;
+}
+footer{
+    background-color: rgb(9, 25, 95);
 }
