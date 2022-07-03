@@ -9,35 +9,80 @@ body {
     margin: 50%;
 }
 
-.topnav {
-    font-size: x-large;
-    display: flex;
-    justify-content: space-evenly;
-    margin-left: 60%;
-}
 
-.button {
-    text-align: right;
-    color: #FAFAFA;
+/* NAVIGATION STYLES */
+.nav{
     display: flex;
-    justify-content: flex-end;
+    padding: 20px;
+    background-color: rgb(238, 238, 238);
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+.brandname{
+        font-size: 20px;
+        display: flex;
+        justify-content: flex-start;
+}
+#btn1{
     background-color: #0F298B;
-
+  
+    border-radius: 8%;
+    font-size: larger;
+    padding: auto;
+    margin: 0;
+}
+#btn1>a{
+    color: white;
 }
 
-footer {
+.topnav>ul{
+    display: flex;
+    justify-content: center;
+  
+    margin: 0;
+    padding:0;
+    width: 100%;
+    
+}
+.topnav>ul>li{
+    display: inline;
+    margin: 10px;
+   list-style: none;
+    
+}
+
+
+/* footer {
     background-color: rgb(15, 95, 175);
     display: inline-block;
     text-align: block;
-}
+} */
 
 /* SECTION A STYLE  */
+
+
+
+
+
+.top-section{
+    display: flex;
+    
+}
+
+
+
+
+
+
+/* 
 
 .top-section {
     background-color: #FAFAFA;
     display: flex;
     justify-content:space-around;
     flex-direction:row;
+
 }
 .fonty{
     font-family: monospace;
@@ -77,7 +122,10 @@ h4{
     background-color: #0F298B;
     display: flex;
     margin: 5%;
-}
+} */
+
+
+
 /* SECTION C  */
 .center{
     display: flex;
