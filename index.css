@@ -67,3 +67,11 @@ h4{
     margin-left: 100px;
     margin-bottom: auto;
 }
+.search{
+    color: #0F298B;
+    background-color: #FAFAFA;
+    display: flex;
+    justify-content: flex-start;
+}
+/* SECTION C  */
+
