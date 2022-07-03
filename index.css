@@ -1,7 +1,8 @@
 body {
     box-sizing: border-box;
     margin: auto;
-    max-width: fit-content;
+    background-color: #FAFAFA;
+
 }
 ul {
     list-style: block;
@@ -51,9 +52,11 @@ h4{
 .highlight{
     color: #0F298B;
     display: flex;
-    justify-content: space-evenly;
-    background-color: #FAFAFA;
+    justify-content: space-between;
+    background-color: white;
     gap: 10px;
+    max-width: fit-content;
+    margin: 10%;
 }
 .left{
     color: #0F298B;
@@ -71,7 +74,16 @@ h4{
     color: #0F298B;
     background-color: #FAFAFA;
     display: flex;
-    justify-content: flex-start;
+    margin: 5%;
 }
 /* SECTION C  */
+.center{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+.mid{
+    display: flex;
+    justify-content: center;
+}
 
