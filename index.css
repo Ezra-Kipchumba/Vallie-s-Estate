@@ -26,13 +26,7 @@ footer {
     background-color: rgb(15, 95, 175);
     display: inline-block;
     text-align: block;
-
 }
-
-.center {
-    color: blue;
-}
-
 
 /* SECTION A STYLE  */
 
@@ -49,4 +43,27 @@ footer {
 }
 h1{
     font-style: calc(Space grotext);
+}
+h4{
+    color: #0F298B;
+    font-size: xx-large;
+}
+.highlight{
+    color: #0F298B;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #FAFAFA;
+    gap: 10px;
+}
+.left{
+    color: #0F298B;
+    display: flex;
+    justify-content: flex-start;
+}
+.image1{
+    display: flex;
+    justify-content: end;
+    background-color: #FAFAFA;
+    margin-left: 100px;
+    margin-bottom: auto;
 }
