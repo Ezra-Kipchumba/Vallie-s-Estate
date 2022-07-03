@@ -1,25 +1,52 @@
-h1{
-    font-family: 'Courier New';
-    color: blue;
-    font-size: 25px;
-    text-align: left;
+body {
+    box-sizing: border-box;
+    margin: auto;
+    max-width: fit-content;
 }
-ul{
+ul {
     list-style: block;
 }
-.topnav{
-    text-align: right;
+
+.topnav {
     font-size: x-large;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 60%;
 }
-image{
-    max-width: 70px;
+
+.button {
+    text-align: right;
+    color: #0F298B;
+    display: flex;
+    justify-content: flex-end;
+
 }
-button{
+
+footer {
+    background-color: rgb(15, 95, 175);
+    display: inline-block;
+    text-align: block;
+
+}
+
+.center {
     color: blue;
-    box-sizing: 70px;
-    max-width: 20%;
-    border-color: darkblue;
 }
-footer{
-    background-color: rgb(9, 25, 95);
+
+
+/* SECTION A STYLE  */
+
+.top-section {
+    background-color: #FAFAFA;
+    display: flex;
+    justify-content:space-around;
+    flex-direction:row;
+}
+.fonty{
+    font-family: monospace;
+    font-size: x-large;
+    color: #0F298B;
+}
+h1{
+    font-style: calc(Space grotext);
 }
