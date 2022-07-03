@@ -4,14 +4,15 @@ body {
     background-color: #FAFAFA;
 
 }
-.ul{
+
+.ul {
     list-style-type: square;
     margin: 50%;
 }
 
 
 /* NAVIGATION STYLES */
-.nav{
+.nav {
     display: flex;
     padding: 20px;
     background-color: rgb(238, 238, 238);
@@ -19,37 +20,41 @@ body {
     justify-content: space-around;
 
 }
-.brandname{
-        font-size: 20px;
-        display: flex;
-        justify-content: flex-start;
+
+.brandname {
+    font-size: 20px;
+    display: flex;
+    justify-content: flex-start;
 }
-#btn1{
+
+#btn1 {
     background-color: #0F298B;
-  
+
     border-radius: 8%;
     font-size: larger;
     padding: auto;
     margin: 0;
 }
-#btn1>a{
+
+#btn1>a {
     color: white;
 }
 
-.topnav>ul{
+.topnav>ul {
     display: flex;
     justify-content: center;
-  
+
     margin: 0;
-    padding:0;
+    padding: 0;
     width: 100%;
-    
+
 }
-.topnav>ul>li{
+
+.topnav>ul>li {
     display: inline;
     margin: 10px;
-   list-style: none;
-    
+    list-style: none;
+
 }
 
 
@@ -65,9 +70,36 @@ body {
 
 
 
-.top-section{
+.top-section {
     display: flex;
-    
+    justify-content: space-around;
+    margin: 30px;
+    height: 30vh;
+}
+
+.fonty {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    max-width: 50%;
+}
+
+.fonty>.learnmore {
+    width: 30%;
+    background-color: #0F298B;
+    color: #f8f8f8;
+}
+
+.help {
+    font-family: monospace;
+    font-size: 42px;
+    color: #0F298B;
+
+}
+
+.image1 {
+    display: flex;
+    justify-content: space-around;
 }
 
 
@@ -127,65 +159,71 @@ h4{
 
 
 /* SECTION C  */
-.center{
+.center {
     display: flex;
     justify-content: center;
     background-color: white;
 }
-.mid{
+
+.mid {
     display: flex;
     justify-content: center;
 }
 
-.content{
+.content {
     display: flex;
     justify-content: right;
     flex-direction: row;
 }
-.right{
-    margin:4%;
+
+.right {
+    margin: 4%;
     font-size: xx-large;
 }
-.large{
+
+.large {
     font-family: monospace;
     font-size: large;
 }
 
 /* SECTIION E  */
-.row{
+.row {
     background-color: #FAFAFA;
     display: flex;
     justify-content: center;
     margin-left: 70%;
 
 }
-.view{
+
+.view {
     color: #FAFAFA;
     background-color: #0F298B;
     display: flex;
     justify-content: right;
 }
 
-.image3{
+.image3 {
     padding-left: 30px;
     padding-right: 20px;
     margin-left: 50px;
     margin-right: 60px;
 }
-.image4{
+
+.image4 {
     padding-left: 80px;
     margin-right: 60px;
     padding-left: 40px;
     margin-left: 100px;
 }
-.image5{
+
+.image5 {
     margin-right: 50px;
     margin-left: 50px;
     padding-left: 60;
     padding-right: 100px;
 }
- 
+
 /* SECTION F  */
-.block{
+.block {
     display: inline-table;
 }
