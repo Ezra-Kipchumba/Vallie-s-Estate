@@ -17,9 +17,10 @@ ul {
 
 .button {
     text-align: right;
-    color: #0F298B;
+    color: #FAFAFA;
     display: flex;
     justify-content: flex-end;
+    background-color: #0F298B;
 
 }
 
@@ -71,8 +72,8 @@ h4{
     margin-bottom: auto;
 }
 .search{
-    color: #0F298B;
-    background-color: #FAFAFA;
+    color: #FAFAFA;
+    background-color: #0F298B;
     display: flex;
     margin: 5%;
 }
@@ -105,4 +106,9 @@ h4{
     padding : 40px;
 
 }
-
+.view{
+    color: #FAFAFA;
+    background-color: #0F298B;
+    display: flex;
+    justify-content: right;
+}
