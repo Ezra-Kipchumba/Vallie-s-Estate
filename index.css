@@ -4,8 +4,9 @@ body {
     background-color: #FAFAFA;
 
 }
-ul {
-    list-style: block;
+.ul{
+    list-style-type: square;
+    margin: 50%;
 }
 
 .topnav {
@@ -93,9 +94,13 @@ h4{
     justify-content: right;
     flex-direction: row;
 }
-.p1{
-    font-family: 'Courier New', Courier, monospace;
+.right{
+    margin:4%;
     font-size: xx-large;
+}
+.large{
+    font-family: monospace;
+    font-size: large;
 }
 
 /* SECTIION E  */
@@ -103,7 +108,7 @@ h4{
     background-color: #FAFAFA;
     display: flex;
     justify-content: center;
-    padding : 40px;
+    margin-left: 70%;
 
 }
 .view{
@@ -112,3 +117,24 @@ h4{
     display: flex;
     justify-content: right;
 }
+
+.image3{
+    padding-left: 30px;
+    padding-right: 20px;
+    margin-left: 50px;
+    margin-right: 60px;
+}
+.image4{
+    padding-left: 80px;
+    margin-right: 60px;
+    padding-left: 40px;
+    margin-left: 100px;
+}
+.image5{
+    margin-right: 50px;
+    margin-left: 50px;
+    padding-left: 60;
+    padding-right: 100px;
+}
+ 
+/* SECTION F  */
