@@ -196,6 +196,28 @@ body {
 }
 
 /* SECTION F  */
-.block {
-    display: inline-table;
+.customers{
+    margin: 30px;
+   
+
+}
+.esteemed{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.esteemed>h4{
+    color: #0F298B;
+}
+.alex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+/* FOOTER */
+footer{
+    background-color: #0F298B;
+    color: white;
 }
