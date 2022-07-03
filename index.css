@@ -138,3 +138,6 @@ h4{
 }
  
 /* SECTION F  */
+.block{
+    display: inline-table;
+}
