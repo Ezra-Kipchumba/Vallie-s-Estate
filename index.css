@@ -208,18 +208,17 @@ h4{
 
 /* FOOTER */
 .foot{
-    margin: 0px;
-}
-.foothead>h1{
-    font-family: 'Gill Sans';
-}
-footer{
+    color: #FAFAFA;
     background-color: #0F298B;
-    color: white;
     display: flex;
     justify-content: space-around;
-    margin: 30%;
+    
 }
-.foot>h4{
-    color: #0F298B;
+h5{
+    font-size: large;
+}
+.para{
+    display: flex;
+    text-align: left;
+    flex-direction: column;
 }
