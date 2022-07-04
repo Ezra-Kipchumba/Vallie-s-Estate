@@ -57,18 +57,7 @@ body {
 
 }
 
-
-/* footer {
-    background-color: rgb(15, 95, 175);
-    display: inline-block;
-    text-align: block;
-} */
-
 /* SECTION A STYLE  */
-
-
-
-
 
 .top-section {
     display: flex;
@@ -102,11 +91,11 @@ body {
     justify-content: space-around;
 }
 
-
-
-
-
 /* SECTION C  */
+h4{
+    color: #0F298B;
+    font-size: larger;
+}
 
 .highlight{
     height: 40vh;
@@ -123,14 +112,6 @@ body {
     color: #0F298B;
 
 }
-
-
-
-
-
-
-
-
 .center {
     display: flex;
     justify-content: center;
@@ -158,12 +139,21 @@ body {
     font-size: large;
 }
 
+
+/* SECTION D  */
+.listing{
+    font-size: larger;
+    display: flex;
+    list-style-type: square;
+}
+
 /* SECTIION E  */
+
 .row {
     background-color: #FAFAFA;
     display: flex;
-    justify-content: center;
-    margin-left: 70%;
+    padding: 20px;
+    align-content: flex-start;
 
 }
 
@@ -217,7 +207,19 @@ body {
 
 
 /* FOOTER */
+.foot{
+    margin: 0px;
+}
+.foothead>h1{
+    font-family: 'Gill Sans';
+}
 footer{
     background-color: #0F298B;
     color: white;
+    display: flex;
+    justify-content: space-around;
+    margin: 30%;
+}
+.foot>h4{
+    color: #0F298B;
 }
