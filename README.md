@@ -9,3 +9,8 @@
 ## Technologies used
 1. HTML
 2. CSS
+
+
+### License
+
+Copyright (c) {year} **{List of contributors or company name}**
