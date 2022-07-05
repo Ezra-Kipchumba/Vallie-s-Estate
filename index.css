@@ -256,6 +256,7 @@ h4 {
 /* SECTION F  */
 .customers {
     margin: 30px;
+    
 
 
 }
@@ -282,7 +283,7 @@ h4 {
     display: flex;
     flex-direction: column;
     border-radius: 20px;
-    /* justify-content: space-between; */
+    justify-content: space-between;
     background-color: white;
     padding: 40px;
 }
@@ -300,9 +301,9 @@ h4 {
     color: #FAFAFA;
     background-color: #0F298B;
     display: flex;
-    float: right;
-    /* flex-direction: row;
-    justify-content: flex-end; */
+    /* float: right; */
+    flex-direction: row;
+    justify-content: flex-end;
     margin: 4%;
     padding: 15px;
     border-radius: 10px;
