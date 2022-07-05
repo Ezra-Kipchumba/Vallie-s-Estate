@@ -10,8 +10,18 @@
 1. HTML
 2. CSS
 
+## Program set up instructions
+1. clone the repository to your desktop using :git clone https://github.com/Ezra-Kipchumba/Vallie-s-Estate.git
+2. navigate to the directory with cd 
+3. add Css and index.html in your browser
+4. using code . access the program
 
-### License
+
+### LIVE DEMO
+Live [live](https://ezra-kipchumba.github.io/Vallie-s-Estate/) 
+
+
+### License and Copyright
 
 MIT License
 
@@ -26,4 +36,6 @@ furnished to do so, subject to the following conditions:
 
 The above copyright notice and this permission notice shall be included in all
 copies or substantial portions of the Software.
+
+
 
