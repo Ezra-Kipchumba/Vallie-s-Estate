@@ -39,6 +39,7 @@ body {
 }
 
 
+
 .topnav>ul {
     display: flex;
     justify-content: space-around;
@@ -83,8 +84,8 @@ body {
 }
 
 .help {
-    font-family: monospace;
-    font-size: 42px;
+    font-family: Georgia, Times, serif;
+    font-size: 90px;
     color: #0F298B;
 
 }
@@ -96,7 +97,7 @@ body {
 
 #font {
     font-family: serif;
-    font-size: xx-large;
+    font-size: 50px;
 }
 
 
@@ -130,15 +131,9 @@ h4 {
 }
 
 .side {
-    color: #FAFAFA;
-    background-color: #0F298B;
-    display: flex;
-    justify-content: left;
-    padding-left: 15px;
-    border-radius: 10px;
-    padding: 10px;
-    margin-left: 4%;
-    margin-right: 89%;
+    margin-top: 75px;
+    color: #0F298B;
+    padding: 4o%;
 
 }
 
@@ -314,6 +309,7 @@ h4 {
     display: flex;
     justify-content: space-around;
     width: 100%;
+    padding-bottom: 6%;
 
 }
 
@@ -325,4 +321,7 @@ h5 {
     display: flex;
     text-align: left;
     flex-direction: column;
+}
+.para>h1{
+    font-family: 'Lucida Sans',
 }
